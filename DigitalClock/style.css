@@ -1,0 +1,49 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #838383;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 28px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+#hours, #minutes, #seconds {
+    padding: 10px;
+    min-width: 50px;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+#noon {
+    padding: 5px 10px;
+    background: #000000;
+    color: #fff;
+    border-radius: 5px;
+}
